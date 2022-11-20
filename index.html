@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rumah Aqiqah Salman</title>
+
+        <!-- ===== Icon Tab Bar ===== -->
+        <link rel="Icon" href="./assets/icon/LogoTab.png" type="xicon/image">
+        <!-- ===== TailWindCss ===== -->
+        <link rel="stylesheet" href="./dist/output.css">
+    </head>
+    <body>
+
+        <!-- ===== Start Navbar ===== -->
+
+        <nav class="bg-white px-[24px] sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full
+            z-50 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+            <div class="container flex flex-wrap items-center justify-between
+                mx-auto">
+                <a href="" class="flex items-center">
+                    <img src="./assets/icon/LogoNavbar.png"
+                        class="h-6 mr-3 sm:h-9" alt="Logo">
+                </a>
+                <div class="flex md:order-2">
+                    <button type="button" class="text-white bg-[#CA965C]
+                        hover:bg-[#7A5122] font-bold font-poopins rounded-lg
+                        text-sm px-5
+                        py-2.5 text-center mr-3 md:text-2xl md:mr-0">Order</button>
+                    <button data-collapse-toggle="navbar-sticky" type="button"
+                        class="inline-flex items-center p-2 text-sm
+                        text-gray-500 rounded-lg md:hidden hover:bg-gray-100
+                        focus:outline-none focus:ring-2 focus:ring-gray-200
+                        dark:text-gray-400 dark:hover:bg-gray-700
+                        dark:focus:ring-gray-600" aria-controls="navbar-sticky"
+                        aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-6 h-6" aria-hidden="true"
+                            fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg"><path
+                                fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0
+                                110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0
+                                110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0
+                                110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                    </button>
+                </div>
+                <div class="items-center justify-between hidden w-full md:flex
+                    md:w-auto md:order-1" id="navbar-sticky">
+                    <ul class="flex flex-col p-4 mt-4 font-poopins font-bold
+                        text-lg md:text-2xl md:flex-row md:space-x-8 md:mt-0
+                        md:font-bold ">
+                        <li>
+                            <a href="#" class="block py-2 pl-3 pr-4
+                                text-[#CA965C] md:p-0 md:hover:text-[#7A5122]"
+                                aria-current="page">Beranda</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block py-2 pl-3 pr-4
+                                text-[#CA965C] md:p-0 md:hover:text-[#7A5122]">Artikel</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block py-2 pl-3 pr-4
+                                text-[#CA965C] md:p-0 md:hover:text-[#7A5122]">Produk</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block py-2 pl-3 pr-4
+                                text-[#CA965C] md:p-0 md:hover:text-[#7A5122]">Kontak</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- ==== End Navbar ===== -->
+
+        <!-- ===== Start Carouser ===== -->
+        <section id="Carousel">
+            <div class="container px-[24px] mb-0 md:mb-0 lg:mb-[79px]">
+
+                <div id="controls-carousel" class="relative"
+                    data-carousel="slide">
+                    <!-- Carousel wrapper -->
+                    <div class="relative h-60 overflow-hidden mt-16 md:mt-28 md:mb-[38px] md:h-72 lg:mt-32 lg:h-[450px]">
+                        <!-- Item 1 -->
+                        <div class="hidden duration-700 ease-in-out"
+                            data-carousel-item>
+                            <img src="./assets/Banner.png"
+                                class="absolute block w-full -translate-x-1/2
+                                -translate-y-1/2 top-1/2 left-1/2 rounded-2xl
+                                md:rounded-[25px]" alt="...">
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="hidden duration-700 ease-in-out"
+                            data-carousel-item="active">
+                            <img src="./assets/Banner2.png"
+                                class="absolute block w-full -translate-x-1/2
+                                -translate-y-1/2 top-1/2 left-1/2 rounded-2xl
+                                md:rounded-[25px]" alt="...">
+                        </div>
+                        <!-- Item 3 -->
+                        <div class="hidden duration-700 ease-in-out"
+                            data-carousel-item>
+                            <img src="./assets/Banner3.png"
+                                class="absolute block w-full -translate-x-1/2
+                                -translate-y-1/2 top-1/2 left-1/2 rounded-2xl
+                                md:rounded-[25px]" alt="...">
+                        </div>
+                        <div class="hidden duration-700 ease-in-out"
+                            data-carousel-item>
+                            <img src="./assets/pantai.png"
+                                class="absolute block w-full -translate-x-1/2
+                                -translate-y-1/2 top-1/2 left-1/2 rounded-2xl
+                                md:rounded-[25px]" alt="...">
+                        </div>
+                    </div>
+                    <!-- Slider controls -->
+                    <button type="button" class="absolute top-0 left-0 z-30 flex
+                        items-center justify-center h-full px-4 cursor-pointer
+                        group focus:outline-none" data-carousel-prev>
+                        <span class="inline-flex items-center justify-center
+                            w-5 h-5 rounded-full bg-white/30
+                            dark:bg-gray-800/30 group-hover:bg-white/50
+                            dark:group-hover:bg-gray-800/60 group-focus:ring-4
+                            group-focus:ring-white
+                            dark:group-focus:ring-gray-800/70
+                            group-focus:outline-none md:w-7 md:h-7 lg:w-10
+                            lg:h-10">
+                            <svg aria-hidden="true" class="w-6 h-6 text-white
+                                dark:text-gray-800" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg"><path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-width="2"
+                                    d="M15 19l-7-7 7-7"></path></svg>
+                            <span class="sr-only">Previous</span>
+                        </span>
+                    </button>
+                    <button type="button" class="absolute top-0 right-0 z-30
+                        flex items-center justify-center h-full px-4
+                        cursor-pointer group focus:outline-none"
+                        data-carousel-next>
+                        <span class="inline-flex items-center justify-center
+                            w-5 h-5 rounded-full bg-white/30
+                            dark:bg-gray-800/30 group-hover:bg-white/50
+                            dark:group-hover:bg-gray-800/60 group-focus:ring-4
+                            group-focus:ring-white
+                            dark:group-focus:ring-gray-800/70
+                            group-focus:outline-none md:w-7 md:h-7 lg:w-10
+                            lg:h-10">
+                            <svg aria-hidden="true" class="w-6 h-6 text-white
+                                dark:text-gray-800" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg"><path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-width="2"
+                                    d="M9 5l7 7-7 7"></path></svg>
+                            <span class="sr-only">Next</span>
+                        </span>
+                    </button>
+                </div>
+
+            </div>
+        </section>
+        <!-- ===== End Carouser ===== -->
+
+        <!-- ===== Start Why Aqiqah Salman ===== -->
+        <section id="WhyAqiqah">
+            <div class="container px-[24px] mb-[70px]">
+                <div class="bg-[#CA965C] font-bold text-[#E0E0E0] text-sm text-center py-1 rounded-lg lg:rounded-xl md:mb-9 lg:title lg:py-3">
+                    <h2>KENAPA HARUS AQIQAH DI SALMAN</h2>
+                </div>
+                <div class="card pt-5 block  md:flex md:gap-5 text-[#9E9E9E]">
+                    <div class="p-5 mb-10 md:mb-0 border-2 hover:shadow-xl rounded-2xl w-full">
+                        <p class="font-bold font-poopins text-lg text-center md:h-14 md:text-lg md:font-bold h-5 lg:text-[24px] lg:font-semibold">Pilihan Hewan Berkualitas</p>
+                        <p class="mt-5 text-base md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe adipisci aliquam atque illo amet itaque, earum dolore porro quasi ipsum, repellat recusandae neque impedit magni.</p>
+                    </div>
+                    <div class="p-5 mb-10 md:mb-0 border-2 hover:shadow-xl rounded-2xl w-full">
+                        <p class="font-bold font-poopins text-lg text-center md:h-14 md:text-lg md:font-bold h-5 lg:text-[24px] lg:font-semibold">Dikelolah Oleh Profesional</p>
+                        <p class="mt-5 text-base md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe adipisci aliquam atque illo amet itaque, earum dolore porro quasi ipsum, repellat recusandae neque impedit magni.</p>
+                    </div>
+                    <div class="p-5 mb-10 md:mb-0 border-2 hover:shadow-xl rounded-2xl w-full">
+                        <p class="font-bold font-poopins text-lg text-center md:h-14 md:text-lg md:font-bold h-5 lg:text-[24px] lg:font-semibold">Diantar Sampai Tujuan</p>
+                        <p class="mt-5 text-base md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe adipisci aliquam atque illo amet itaque, earum dolore porro quasi ipsum, repellat recusandae neque impedit magni.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===== End Why Aqiqah Salman ===== -->
+
+        <!-- ===== Start Package Option ===== -->
+        <section id="Package-Option">
+            <div class="container px-[24px] mb-20">
+                <div class="bg-[#CA965C] font-bold text-[#E0E0E0] text-sm text-center py-1 rounded-lg mb-10 lg:rounded-xl md:mb-9 lg:title lg:py-3 lg:mb-[53px]">
+                    <h2>PILIHAN PAKET</h2>
+                </div>
+                <div class="block gap-10 mb-[47px] md:flex ">
+                    <div class="relative mb-10 md:mb-0">
+                        <a href="" class="hover:opacity-80">
+                            <img src="./assets/Paket-Aqiqah.png" alt="" class="rounded-2xl">
+                            <h2 class="font-poopins font-bold text-[24px] text-[#E0E0E0] lg:title absolute bottom-0 mb-10 left-1/2 -translate-x-1/2">Aqiqah Reguler</h2>
+                        </a>
+                    </div>
+                    <div class="relative">
+                        <a href="" class="hover:opacity-80">
+                            <img src="./assets/Aqiqah-Berbagi.png" alt="" class="rounded-2xl">
+                            <h2 class="font-poopins font-bold text-[24px] text-[#E0E0E0] lg:title absolute bottom-0 mb-10 left-1/2 -translate-x-1/2">Aqiqah Berbagi</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="text-center font-poopins font-bold text-[24px] text-white lg:title">
+                    <a href="" class="bg-[#CA965C] hover:bg-[#7A5122] p-3 rounded-xl">Pesan Sekarang</a>
+                </div>
+            </div>
+        </section>
+        <!-- ===== End Package Option ===== -->
+
+        <!-- ===== call Flowbite ===== -->
+        <script src="./node_modules/flowbite/dist/flowbite.js"></script>
+    </body>
+</html>
